@@ -16,6 +16,11 @@ const MainConnection = () => {
             Комплексные поставки электронных компонентов и оборудования.
             Подберем аналоги популярных брендов из Европы в условиях санкций.
           </p>
+          <ul className={styles.checkList}>
+            <li className={styles.checkList__item}>Отсрочка платежей для постоянных клиентов</li>
+            <li className={styles.checkList__item}>Бесплатная доставка по Москве и СПБ в течение 2х часов</li>
+            <li className={styles.checkList__item}>Квалифицированный персональный менеджер</li>
+          </ul>
         </div>
         <Form />
       </section>
