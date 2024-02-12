@@ -1,0 +1,21 @@
+@import "./fonts.scss";
+
+:root {
+  --font-mono: 'Futura','FuturaFuturis',ui-monospace, "Menlo", "Monaco", 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+body,html {
+  margin: 0 auto;
+  color-scheme: dark;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(242, 242, 244);
+  background-position: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
