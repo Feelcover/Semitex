@@ -1,0 +1,15 @@
+.manufacturersItem {
+  width: 242px;
+  height: 174px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+  background-position: center;
+  background-repeat: no-repeat;
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+      transform: scale(1.05);
+  }
+}

@@ -1,5 +1,7 @@
 import HowBenefit from "@/components/HowBenefit/HowBenefit";
 import MainConnection from "@/components/MainConnection/MainConnection";
+import OurManufacturers from "@/components/OurManufacturers/OurManufacturers";
+import WorkScheme from "@/components/WorkScheme/WorkScheme";
 import Head from "next/head";
 
 
@@ -15,6 +17,8 @@ export default function Home() {
       <main>
       <MainConnection/>
       <HowBenefit/>
+      <OurManufacturers/>
+      <WorkScheme/>
       </main>
     </>
   );

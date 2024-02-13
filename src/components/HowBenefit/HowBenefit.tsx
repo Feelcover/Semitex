@@ -5,12 +5,12 @@ import styles from "./HowBenefit.module.scss";
 const HowBenefit = () => {
   return (
     <section className={styles.howBenefit}>
-      <h4 className={styles.howBenefit__title}>Почему с нами выгодно</h4>
+      <h3 className={styles.howBenefit__title}>Почему с нами выгодно</h3>
       <p className={styles.howBenefit__description}>
         С 1996 года мы занимаемся оптовыми поставками электронных компонентов от
         ведущих производителей из Европы и Азии для Российских потребителей.{" "}
       </p>
-      <div className={styles.howBenefit__items}>
+      <ul className={styles.howBenefit__items}>
         <BenefitItem
           backgroundImage="/images/benefitQuality.svg"
           title="Качественная продукция"
@@ -45,7 +45,7 @@ const HowBenefit = () => {
           description="Отсрочка платежей для постоянных клиентов."
         />
         
-      </div>
+      </ul>
     </section>
   );
 };

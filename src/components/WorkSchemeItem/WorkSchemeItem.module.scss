@@ -1,0 +1,57 @@
+.workSchemeItem {
+  min-width: 439.47px;
+  min-height: 300.37px;
+  background-image: url("/images/workSchemeCardStartUp.svg");
+  background-repeat: no-repeat;
+  padding-left: 38px;
+  box-sizing: border-box;  
+
+  .container {
+    max-width: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__number {
+    color: rgb(150, 154, 247);
+    font-family: "FuturaFuturis";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    margin: 39px 0 0;
+
+  }
+
+  &__text {
+    margin-left:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title {
+      color: rgb(255, 255, 255);
+      font-family: "FuturaFuturis";
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25px;
+      text-align: left;
+      margin: 37px 0 10px;
+      text-transform: uppercase;
+      max-width: 300px;
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+    }
+    &__description {
+      color: rgb(227, 227, 227);
+      font-family: "Futura";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: left;
+      margin: 0;
+      max-width: 300px;
+    }
+  }
+}

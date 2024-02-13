@@ -14,14 +14,14 @@ const BenefitItem: FC<IBenefitItemProps> = ({
   description,
 }) => {
   return (
-    <div className={styles.benefitItem}>
+    <li className={styles.benefitItem}>
       <div
         className={styles.benefitItem__image}
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
       <h4 className={styles.benefitItem__title}>{title}</h4>
       <p className={styles.benefitItem__description}>{description}</p>
-    </div>
+    </li>
   );
 };
 

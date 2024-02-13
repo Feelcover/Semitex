@@ -24,7 +24,7 @@ const MainConnection = () => {
         </div>
         <Form />
       </section>
-      <div className={styles.wave}/>
+      <div className='wave'/>
     </div>
   );
 };

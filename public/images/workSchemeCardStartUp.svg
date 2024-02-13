@@ -1,0 +1,16 @@
+<svg width="439.472656" height="268.372070" viewBox="0 0 439.473 268.372" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<defs>
+		<linearGradient id="paint_linear_13_390_0" x1="219.736481" y1="0.000000" x2="219.736481" y2="268.372101" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#969AF7"/>
+			<stop offset="1.000000" stop-color="#686EEC"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_13_390_1" x1="-53.466919" y1="-21.017181" x2="407.656921" y2="268.372284" gradientUnits="userSpaceOnUse">
+			<stop offset="0.085152" stop-color="#041080"/>
+			<stop offset="1.000000" stop-color="#0926C0"/>
+		</linearGradient>
+	</defs>
+	<path id="Union" d="M20 0C8.9541 0 0 8.95435 0 20L0 248.372C0 259.418 8.9541 268.372 20 268.372L393 268.372C404.046 268.372 413 259.418 413 248.372L413 177.073L438.319 139.323C439.857 137.03 439.857 133.312 438.319 131.018L413 93.2682L413 20C413 8.95435 404.046 0 393 0L20 0Z" fill="#969AF7" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Union" d="M20 0C8.9541 0 0 8.95435 0 20L0 248.372C0 259.418 8.9541 268.372 20 268.372L393 268.372C404.046 268.372 413 259.418 413 248.372L413 177.073L438.319 139.323C439.857 137.03 439.857 133.312 438.319 131.018L413 93.2682L413 20C413 8.95435 404.046 0 393 0L20 0Z" fill="url(#paint_linear_13_390_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path id="Union" d="M20 0C8.9541 0 0 8.95435 0 20L0 248.372C0 259.418 8.9541 268.372 20 268.372L393 268.372C404.046 268.372 413 259.418 413 248.372L413 177.073L438.319 139.323C439.857 137.03 439.857 133.312 438.319 131.018L413 93.2682L413 20C413 8.95435 404.046 0 393 0L20 0Z" fill="url(#paint_linear_13_390_1)" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>
