@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import WorkSchemeItem from "../WorkSchemeItem/WorkSchemeItem";
 import styles from "./WorkScheme.module.scss";
 
@@ -54,6 +55,7 @@ const WorkScheme = () => {
 
         />
       </ul>
+      <Button type='button' text='Оставить заявку' marginTop={48} marginBottom={120}/>
     </section>
   );
 };

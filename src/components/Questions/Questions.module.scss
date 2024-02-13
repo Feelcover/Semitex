@@ -1,0 +1,26 @@
+.questions {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0809a7;
+  background-image: url("/images/questionsBackground.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &__title {
+    color: rgb(255, 255, 255);
+    font-family: "FuturaFuturis";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 99.8%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 70px 0 40px;
+  }
+  &__items {
+    width: 100%;
+    max-width: 1285px;
+    padding: 0;
+  }
+}

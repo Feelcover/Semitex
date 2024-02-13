@@ -6,13 +6,20 @@ interface IButton {
   text: string;
   marginBottom?: number;
   marginTop?: number;
+  backgroundColor?: string;
 }
 
-const Button: FC<IButton> = ({ type, text, marginBottom, marginTop }) => {
+const Button: FC<IButton> = ({
+  type,
+  text,
+  marginBottom,
+  marginTop,
+  backgroundColor,
+}) => {
   return (
     <button
       className={styles.button}
-      style={{ marginBottom, marginTop }}
+      style={{ marginBottom, marginTop, backgroundColor }}
       type={type}
     >
       <span className={styles.button__text}>{text}</span>

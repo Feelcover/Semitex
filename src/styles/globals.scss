@@ -9,9 +9,9 @@
 body,html {
   margin: 0 auto;
   color-scheme: dark;
-  max-width: 100%;
   background-color: rgb(242, 242, 244);
   background-position: center;
+  overflow-x: hidden;
 }
 
 a {
@@ -20,6 +20,8 @@ a {
 }
 ul, ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
   .wave {
