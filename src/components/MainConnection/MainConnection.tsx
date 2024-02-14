@@ -2,7 +2,7 @@ import React from "react";
 import Form from "../Form/Form";
 import Header from "../Header/Header";
 import { motion } from "framer-motion";
-import styles from "./mainConnection.module.scss";
+import styles from "./MainConnection.module.scss";
 
 const MainConnection = () => {
   return (
