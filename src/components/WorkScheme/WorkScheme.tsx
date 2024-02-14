@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Button from "../Button/Button";
 import WorkSchemeItem from "../WorkSchemeItem/WorkSchemeItem";
@@ -5,6 +6,15 @@ import styles from "./WorkScheme.module.scss";
 
 const WorkScheme = () => {
   return (
+    <motion.div
+    transition={{
+      delay: 0.3,
+      ease: "linear",
+      duration: 0.5,
+    }}
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+>
     <section className={styles.workScheme}>
       <h3 className={styles.workScheme__title}>Схема работы</h3>
       <p className={styles.workScheme__description}>
@@ -57,6 +67,7 @@ const WorkScheme = () => {
       </ul>
       <Button type='button' text='Оставить заявку' marginTop={48} marginBottom={120}/>
     </section>
+    </motion.div>
   );
 };
 

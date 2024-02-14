@@ -1,10 +1,21 @@
+import { motion } from "framer-motion";
 import React from "react";
 import ManufacturersItem from "../ManufacturersItem/ManufacturersItem";
 import styles from "./OurManufacturers.module.scss";
 
 const OurManufacturers = () => {
   return (
-    <section className={styles.ourManufacturers}>
+    <motion.div
+    transition={{
+      delay: 0.3,
+      ease: "linear",
+      duration: 0.5,
+    }}
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+>
+    
+    <section className={styles.ourManufacturers} id='manufacturers'>
       <div className="wave waveOne" />
       <div className={styles.container}>
         <h3 className={styles.title}>Наши производители</h3>
@@ -23,6 +34,7 @@ const OurManufacturers = () => {
       </div>
       <div className="wave waveTwo" />
     </section>
+    </motion.div>
   );
 };
 

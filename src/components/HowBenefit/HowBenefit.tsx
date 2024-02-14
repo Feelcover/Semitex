@@ -4,7 +4,8 @@ import styles from "./HowBenefit.module.scss";
 
 const HowBenefit = () => {
   return (
-    <section className={styles.howBenefit}>
+    
+    <section className={styles.howBenefit} id='about'>
       <h3 className={styles.howBenefit__title}>Почему с нами выгодно</h3>
       <p className={styles.howBenefit__description}>
         С 1996 года мы занимаемся оптовыми поставками электронных компонентов от
@@ -47,6 +48,7 @@ const HowBenefit = () => {
         
       </ul>
     </section>
+
   );
 };
 
