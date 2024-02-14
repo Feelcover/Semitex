@@ -1,10 +1,18 @@
+import { motion } from "framer-motion";
 import React from "react";
 import BenefitItem from "../BenefitItem/BenefitItem";
 import styles from "./HowBenefit.module.scss";
 
 const HowBenefit = () => {
   return (
-    
+    <motion.div
+    transition={{
+      delay: 2.2,
+      ease: "linear",
+    }}
+  initial={{opacity:0 }}
+  animate={{opacity:1 }}
+>
     <section className={styles.howBenefit} id='about'>
       <h3 className={styles.howBenefit__title}>Почему с нами выгодно</h3>
       <p className={styles.howBenefit__description}>
@@ -48,7 +56,7 @@ const HowBenefit = () => {
         
       </ul>
     </section>
-
+    </motion.div>
   );
 };
 
