@@ -1,9 +1,9 @@
-import Footer from "@/components/Footer/Footer";
-import HowBenefit from "@/components/HowBenefit/HowBenefit";
-import MainConnection from "@/components/MainConnection/MainConnection";
-import OurManufacturers from "@/components/OurManufacturers/OurManufacturers";
-import Questions from "@/components/Questions/Questions";
-import WorkScheme from "@/components/WorkScheme/WorkScheme";
+import Footer from "../components/Footer/Footer";
+import HowBenefit from "../components/HowBenefit/HowBenefit";
+import MainConnection from "../components/MainConnection/MainConnection";
+import OurManufacturers from "../components/OurManufacturers/OurManufacturers";
+import Questions from "../components/Questions/Questions";
+import WorkScheme from "../components/WorkScheme/WorkScheme";
 import Head from "next/head";
 
 
